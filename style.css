@@ -1,0 +1,265 @@
+/* Default light mode styles */
+
+body {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+/* Dark mode styles */
+
+.dark-mode {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-top: 86px;
+}
+
+.feature {
+  flex: 0 0 calc(33.33% - 20px);
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.feature-info {
+  padding: 20px;
+}
+
+.feature img {
+  transition: transform 0.3s ease;
+}
+
+.feature:hover img {
+  transform: scale(1.1);
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  font-size: 18px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 992px) {
+  .feature {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .feature {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .feature {
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Large screens */
+@media screen and (min-width: 1200px) {
+  .features {
+    gap: 0px;
+  }
+
+  .feature {
+    flex: 0 0 calc(25% - 20px);
+  }
+}
+
+/* next section css */
+
+/* gallrey Basic styles */
+.gallery-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.gallery-header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 55px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 58px;
+  justify-content: center;
+}
+
+.image-grid {
+  position: relative;
+  width: 298px;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.image-grid:hover .image-caption {
+  opacity: 1;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 992px) {
+  .image-grid {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image-grid {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .image-grid {
+    width: calc(100% - 20px);
+  }
+}
+
+/* Larger screens */
+@media screen and (min-width: 1200px) {
+  .image-grid {
+    width: 248px;
+  }
+}
+
+/* button */
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 60px;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10rem;
+  transition: all 0.02s;
+  font-weight: bold;
+  color: rgb(37, 37, 37);
+  z-index: 0;
+  box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+  background: rgb(193, 228, 248);
+  color: rgb(33, 0, 85);
+}
+
+.button:active {
+  transform: scale(0.97);
+}
+
+.hoverEffect {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.hoverEffect div {
+  background: rgb(222, 0, 75);
+  background: linear-gradient(
+    90deg,
+    rgba(222, 0, 75, 1) 0%,
+    rgba(191, 70, 255, 1) 49%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 40rem;
+  width: 10rem;
+  height: 10rem;
+  transition: 0.4s;
+  filter: blur(20px);
+  animation: effect infinite 3s linear;
+  opacity: 0.5;
+}
+
+.button:hover .hoverEffect div {
+  width: 8rem;
+  height: 8rem;
+}
+
+@keyframes effect {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
