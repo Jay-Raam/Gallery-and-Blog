@@ -38,7 +38,7 @@ custom booking, end-to-end messaging, and instant itinerary. Additionally, it di
 
 ## Support
 
-For support, email jayasriraam.job@gmail.com or join our instagram  _ivanjay_(https://instagram.com/_ivanjay_)  
+For support, email jayasriraam.job@gmail.com or join our instagram <a href="https://www.instagram.com/_ivanjay_">_ivanjay_</a>
 
 
 ## Tech Stack
