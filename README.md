@@ -1,23 +1,60 @@
-Blog Time - Traveler's Blog
+
+# Blog Time - Traveler's Blog
+
 This repository contains HTML and CSS code for a simple blog-style webpage showcasing features and an image gallery.
 
-Table of Contents
 
-Description
-Features
-Image Gallery
-Dark Mode
-Usage
-Description
+
+## Features
+
+- Description
+- Features
+- Image Gallery
+- Dark Mode
+- Usage
+
+
+## 🛠 Skills
+
+- Javascript
+- HTML, 
+- CSS
+
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  cd my-project
+  run index.html
+```
+    
+## Documentation
 
 This HTML project represents a basic webpage for a travel blog called "Blog Time". It includes features like 
 custom booking, end-to-end messaging, and instant itinerary. Additionally, it displays an image gallery showcasing travel-related images.
 
-Image Gallery
-The image gallery section displays various images related to travel and exploration, providing visual representation and inspiration.
 
-Dark Mode
-The webpage includes a dark mode feature, toggled using the "Dark" button on the header, providing users with different visual preferences.
+## Support
 
-Usage
-Simply open the index.html file in a web browser to view the webpage. Explore the features, browse the image gallery, and toggle the dark mode to experience different visual settings.
+For support, email jayasriraam.job@gmail.com or join our Slack channel.
+
+
+## Tech Stack
+
+**Client:** Html, CSS, Javascript
+
+
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://jay-raam.github.io/Jayasriraam/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/Jayasriraam)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://instagram.com/_ivanjay_)
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at jayasriraam.job@gmail.com
+
