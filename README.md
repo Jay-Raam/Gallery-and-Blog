@@ -23,7 +23,7 @@ This repository contains HTML and CSS code for a simple blog-style webpage showc
 
 ## Installation
 
-Install my-project with npm
+Install my-project
 
 ```bash
   cd my-project
